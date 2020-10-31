@@ -1,0 +1,28 @@
+{
+  "name": "visitalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "service:backend": "yarn workspace @visitalk/backend",
+    "service:frontend": "yarn workspace @visitalk/frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limistah/visitalk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limistah/visitalk/issues"
+  },
+  "homepage": "https://github.com/limistah/visitalk#readme"
+}
